@@ -1,0 +1,15 @@
+services:
+  - type: static
+    name: uPluswithSessionControl
+    env: static
+    branch: feature/private-session-control
+    buildCommand: npm ci && npm run build
+    publishPath: docs
+    staticPublishPath: docs
+    headers:
+      - path: /
+        name: Cache-Control
+        value: no-cache
+    # Optional: set the root directory if building from a subfolder
+    # rootDir: 
+
