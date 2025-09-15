@@ -43,10 +43,8 @@ Notes:
 4) Confirm `localStorage.sessionId` is populated.
 5) Trigger any custom event configured and verify the custom-event ack request is signed and delivered.
 
-### Screenshot placeholder
-Add a screenshot of the Security tab showing "Control chat session initialization" checked in Digital Messaging Manager:
+<img width="1519" height="727" alt="image" src="https://github.com/user-attachments/assets/58c999de-d650-4c3d-8896-e724d8f7cb1f" />
 
-![Configuration Screenshot Placeholder](docs/img/private-session-config.png)
 
 Place your screenshot at `docs/img/private-session-config.png` or update the path above.
 
