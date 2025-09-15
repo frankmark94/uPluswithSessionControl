@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "crypto-js": "^4.2.0",
+    "postcss": "^8.5.6",
     "vue": "^3.5.18",
     "vue-gtag": "^3.5.2",
     "vue-i18n": "^11.1.11"
